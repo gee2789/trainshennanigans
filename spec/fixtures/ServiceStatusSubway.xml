@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><Siri xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns="http://www.siri.org.uk/siri" xmlns:ns4="http://datex2.eu/schema/1_0/1_0" xmlns:ns3="http://www.ifopt.org.uk/ifopt"><ServiceDelivery><ResponseTimestamp>2017-06-13T10:06:31.5693026-04:00</ResponseTimestamp><SituationExchangeDelivery><ResponseTimestamp>2017-06-13T10:06:31.5693026-04:00</ResponseTimestamp><Status>true</Status><Situations>
+  <PtSituationElement>
+    <CreationTime>2017-06-13T10:02:39.193-04:00</CreationTime>
+    <SituationNumber>
+                  MTA NYCT_54c53a9a-0ca4-438a-999c-29b1a85891fa</SituationNumber>
+    <PublicationWindow>
+      <StartTime>2017-06-11T07:40:00-04:00</StartTime>
+    </PublicationWindow>
+    <Summary xml:lang="EN">b/d [3] train shuttle bus is detoured, due to construction on Livonia Av. See mta.info</Summary>
+    <Description xml:lang="EN">&lt;P&gt;Due to construction on Livonia Av, [3] [SB] train shuttle buses are detoured.&lt;/P&gt;
+&lt;P&gt;Detour is as follows: &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Ashford St Bound&lt;/STRONG&gt;: Via Livonia Av, right on Warwick St, left on New Lots Av, right on Ashford St and regular route.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Utica Av Bound&lt;/STRONG&gt;: Via New Lots Av, right on Ashford St, right on Hegeman Av, right on Van Siclen Av, left on Livonia Av and regular route.&lt;/P&gt;
+&lt;P&gt;Allow additional travel time.&lt;/P&gt;</Description>
+    <LongDescription>Due to construction on Livonia Av, [3] [SB] train shuttle buses are detoured.
+Detour is as follows: 
+Ashford St Bound: Via Livonia Av, right on Warwick St, left on New Lots Av, right on Ashford St and regular route.
+Utica Av Bound: Via New Lots Av, right on Ashford St, right on Hegeman Av, right on Van Siclen Av, left on Livonia Av and regular route.
+Allow additional travel time.</LongDescription>
+    <Planned>false</Planned>
+    <ReasonName>Service Change</ReasonName>
+    <MessagePriority>3</MessagePriority>
+    <Source>
+      <SourceType>directReport</SourceType>
+    </Source>
+    <Affects>
+      <VehicleJourneys>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_3</LineRef>
+          <DirectionRef>0</DirectionRef>
+        </AffectedVehicleJourney>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_3</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+      </VehicleJourneys>
+    </Affects>
+    <Consequences>
+      <Consequence>
+        <Condition>altered</Condition>
+        <Severity>undefined</Severity>
+      </Consequence>
+    </Consequences>
+  </PtSituationElement>
+  <PtSituationElement>
+    <CreationTime>2017-06-12T00:00:00-04:00</CreationTime>
+    <SituationNumber>
+                  MTA NYCT_159781</SituationNumber>
+    <PublicationWindow>
+      <StartTime>2017-06-12T00:00:00-04:00</StartTime>
+      <EndTime>2017-06-16T23:59:00-04:00</EndTime>
+    </PublicationWindow>
+    <Summary xml:lang="EN">[SIR] Trains board at the Tottenville-bound platform from Arthur Kill to Prince's Bay Stations</Summary>
+    <Description xml:lang="EN">[SIR] Trains board at the Tottenville-bound platform from Arthur Kill to Prince's Bay Stations</Description>
+    <LongDescription>&amp;lt;b&amp;gt;[SIR] Trains board at the Tottenville-bound platform from Arthur Kill to Prince's Bay Stations&amp;lt;/b&amp;gt;Days, 9 AM to 3 PM, Mon to Fri, Jun 12 - 16&amp;lt;br&amp;gt;&amp;lt;br&amp;gt; Boarding change includes &amp;lt;b&amp;gt;Arthur Kill&amp;lt;/b&amp;gt;, &amp;lt;b&amp;gt;Richmond Valley&amp;lt;/b&amp;gt;, &amp;lt;b&amp;gt;Pleasant Plains&amp;lt;/b&amp;gt; and &amp;lt;br&amp;gt;  &amp;lt;b&amp;gt;Prince's Bay Stations&amp;lt;/b&amp;gt;.&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;&amp;lt;br&amp;gt;</LongDescription>
+    <Planned>true</Planned>
+    <ReasonName>Planned Work</ReasonName>
+    <MessagePriority>
+                  1
+                </MessagePriority>
+    <Source>
+      <SourceType>directReport</SourceType>
+    </Source>
+    <Affects>
+      <VehicleJourneys>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_SI</LineRef>
+          <DirectionRef>0</DirectionRef>
+        </AffectedVehicleJourney>
+      </VehicleJourneys>
+    </Affects>
+    <Consequences>
+      <Consequence>
+        <Condition>altered</Condition>
+        <Severity>undefined</Severity>
+      </Consequence>
+    </Consequences>
+  </PtSituationElement>
+</Situations></SituationExchangeDelivery></ServiceDelivery></Siri>

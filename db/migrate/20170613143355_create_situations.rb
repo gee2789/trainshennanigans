@@ -10,7 +10,6 @@ class CreateSituations < ActiveRecord::Migration[5.1]
       t.string :description
       t.string :reason
       t.boolean :planned, default: false
-
       t.timestamps
     end
   end
