@@ -1,0 +1,2 @@
+class LineDirection < ApplicationRecord
+end

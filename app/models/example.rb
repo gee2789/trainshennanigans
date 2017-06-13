@@ -1,4 +1,6 @@
-class Example < ApplicationRecord
+require 'pry'
+require 'Crack'
+require 'open-uri'
 
   # setting the XML feed
   doc = open("http://web.mta.info/status/ServiceStatusSubway.xml")
@@ -13,8 +15,6 @@ class Example < ApplicationRecord
   # getting the Line that will be affected.  Should iterate across and get additional details
   train_status.each do |situation|
     situation["Affects"]["VehicleJourneys"]["AffectedVehicleJourney"].each do |line|
-      puts line["LineRef"].split.join(" ")
+      puts line.values.split.join(" ")
     end
   end
-  
-end
